@@ -29,4 +29,31 @@
         <servlet-name>send-direct</servlet-name>
         <url-pattern>/send-redirect</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ParamServlet</servlet-name>
+        <servlet-class>com.example.ParamServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ParamServlet</servlet-name>
+        <url-pattern>/param</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SendParamServlet</servlet-name>
+        <servlet-class>com.example.param.SendParamServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SendParamServlet</servlet-name>
+        <url-pattern>/send-param</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SequenceServlet</servlet-name>
+        <servlet-class>com.example.param.SequenceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SequenceServlet</servlet-name>
+        <url-pattern>/sequence</url-pattern>
+    </servlet-mapping>
 </web-app>
