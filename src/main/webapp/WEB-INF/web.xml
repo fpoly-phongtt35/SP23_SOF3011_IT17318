@@ -5,7 +5,7 @@
          version="5.0">
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>com.example.HelloServlet</servlet-class>
+        <servlet-class>com.example.buoi1_hello.HelloServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
@@ -14,7 +14,7 @@
 
     <servlet>
         <servlet-name>Poem</servlet-name>
-        <servlet-class>com.example.PoemServlet</servlet-class>
+        <servlet-class>com.example.buoi2_chuyen_trang.PoemServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Poem</servlet-name>
@@ -23,7 +23,7 @@
 
     <servlet>
         <servlet-name>send-direct</servlet-name>
-        <servlet-class>com.example.SendDirectServlet</servlet-class>
+        <servlet-class>com.example.buoi2_chuyen_trang.SendDirectServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>send-direct</servlet-name>
@@ -32,7 +32,7 @@
     
     <servlet>
         <servlet-name>ParamServlet</servlet-name>
-        <servlet-class>com.example.ParamServlet</servlet-class>
+        <servlet-class>com.example.buoi4_param.ParamServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ParamServlet</servlet-name>
@@ -41,7 +41,7 @@
     
     <servlet>
         <servlet-name>SendParamServlet</servlet-name>
-        <servlet-class>com.example.param.SendParamServlet</servlet-class>
+        <servlet-class>com.example.buoi4_param.SendParamServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SendParamServlet</servlet-name>
@@ -50,7 +50,7 @@
     
     <servlet>
         <servlet-name>SequenceServlet</servlet-name>
-        <servlet-class>com.example.param.SequenceServlet</servlet-class>
+        <servlet-class>com.example.buoi4_param.SequenceServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SequenceServlet</servlet-name>

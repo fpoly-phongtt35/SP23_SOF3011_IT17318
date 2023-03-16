@@ -1,4 +1,4 @@
-package com.example.param;
+package com.example.buoi4_param;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.buoi1_hello;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
