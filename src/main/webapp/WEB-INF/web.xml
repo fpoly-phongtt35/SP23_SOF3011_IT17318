@@ -56,4 +56,5 @@
         <servlet-name>SequenceServlet</servlet-name>
         <url-pattern>/sequence</url-pattern>
     </servlet-mapping>
+
 </web-app>
