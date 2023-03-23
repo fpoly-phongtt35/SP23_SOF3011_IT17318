@@ -22,6 +22,7 @@ public class HibernateUtil
         properties.put(Environment.USER, "sa");
         properties.put(Environment.PASS, "reallyStrongPwd#123");
         properties.put(Environment.SHOW_SQL, "true");
+//        properties.put(Environment.HBM2DDL_AUTO, "create");
 
         conf.setProperties(properties);
         conf.addAnnotatedClass(Product.class);
