@@ -1,4 +1,4 @@
-package com.example.buoi11_filter;
+package com.example.buoi11_filter.authorization;
 
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;

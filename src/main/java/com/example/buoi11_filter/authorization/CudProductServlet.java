@@ -1,4 +1,4 @@
-package com.example.buoi11_filter;
+package com.example.buoi11_filter.authorization;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,12 +8,13 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/b11/admin")
-public class AdminServlet extends HttpServlet {
+@WebServlet("/b11/admin/cud-product")
+public class CudProductServlet extends HttpServlet {
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+    protected void doGet(HttpServletRequest req,
+                         HttpServletResponse resp)
             throws ServletException, IOException {
-        resp.getWriter().append("<h1> Admin Site </h1>");
+        resp.getWriter().append("<h1> CUD Product </h1>");
     }
 }
