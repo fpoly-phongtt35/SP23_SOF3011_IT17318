@@ -5,6 +5,7 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
+<jsp:include page="/WEB-INF/view/b13/_navbar.jsp"/>
 <h1><%= "Hello World!" %>
 </h1>
 <br/>

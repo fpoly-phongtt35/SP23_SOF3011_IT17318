@@ -12,6 +12,7 @@
     <title>CRUD Product</title>
 </head>
 <body>
+    <jsp:include page="/WEB-INF/view/b13/_navbar.jsp"/>
     <h1> CRUD Product </h1>
 
     <form action="">
